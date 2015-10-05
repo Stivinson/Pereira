@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/Sitios"
+        android:textSize="35dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:textColor="@color/greenyellow"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:background="@drawable/ecoparque">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ecoparque, La granja de Noe"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:layout_weight="2"
+            android:layout_marginTop="55dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ecoparque"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_weight="2"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="center_horizontal"
+            android:textColor="@color/whitesmoke"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/jardinbotanico"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Jardin Botanico de Marsella"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:layout_weight="2"
+            android:layout_marginTop="55dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/jardinbotanico"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:layout_weight="2"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="center_horizontal"
+            android:textColor="@color/whitesmoke"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/lagunaotun"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Laguna Otun"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:layout_weight="3"
+            android:layout_marginTop="55dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/laguna"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_weight="4"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="center_horizontal"
+            android:textColor="@color/whitesmoke"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:background="@drawable/reserva"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Reserva Ucumari"
+            android:textSize="50dp"
+            android:textStyle="italic"
+            android:layout_weight="3"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/reseva"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:layout_weight="4"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:gravity="center_horizontal"
+            android:textColor="@color/whitesmoke"/>
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

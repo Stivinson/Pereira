@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/pereira">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="20">
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="60dp"
+        android:text="@string/Pereira2"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="@color/yellow"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:layout_marginRight="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="end">
+            <Button
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/bDemografia"
+
+                android:text="hola"
+                android:onClick="Demografia"
+                android:textSize="15dp"
+                android:textColor="@color/red"
+                android:background="@color/yellow">
+            </Button>
+            <Button
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+
+                android:id="@+id/bHotel"
+                android:text="@string/Hoteles"
+                android:onClick="hoteles"
+                android:textSize="15dp"
+                android:textColor="@color/red"
+                android:background="@color/yellow">
+            </Button>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+
+                android:id="@+id/bBares"
+                android:text="@string/Bares"
+                android:textSize="15dp"
+                android:onClick="bares"
+                android:textColor="@color/red"
+                android:background="@color/yellow"
+                android:layout_margin="@dimen/activity_vertical_margin">
+            </Button>
+            <Button
+                android:layout_margin="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/bSitios"
+
+                android:text="@string/Sitios"
+                android:onClick="Sitios"
+                android:textSize="15dp"
+                android:textColor="@color/red"
+                android:background="@color/yellow">
+            </Button>
+    </LinearLayout>
+
+</LinearLayout>

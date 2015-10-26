@@ -30,19 +30,16 @@ public class AbadiaPlaza extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_menu) {
-            Toast.makeText(this, "Menu", Toast.LENGTH_SHORT).show();
             Intent i =new Intent(this,MainActivity.class);
             startActivity(i);
             return true;
         }
         if (id == R.id.action_about) {
-            Toast.makeText(this, "Acerca De", Toast.LENGTH_SHORT).show();
             Intent i =new Intent(this,About.class);
             startActivity(i);
             return true;
         }
         if (id == R.id.action_publicidad) {
-            Toast.makeText(this, "Publicidad", Toast.LENGTH_SHORT).show();
             Intent i =new Intent(this,Publicidad.class);
             startActivity(i);
             return true;

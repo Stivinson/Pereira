@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Acerca De", Toast.LENGTH_SHORT).show();
             Intent i =new Intent(this,About.class);
             startActivity(i);
+
             return true;
         }
         if (id == R.id.action_publicidad) {
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
          return super.onOptionsItemSelected(item);
 
 }
+
 
     public void hoteles (View v){
         Intent hotel = new Intent(this,Hoteles.class);
